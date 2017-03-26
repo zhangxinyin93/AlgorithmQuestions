@@ -28,9 +28,8 @@ public class PlusOne {
 
         int[] plus = new int[array.size()];
 
-        // TODO: if there is a better way to represent index when do reverse way rather than absolute value
         for (int i = array.size() - 1; i >= 0; i--) {
-            plus[Math.abs(i - array.size() + 1)] = array.get(i);
+            plus[array.size() - 1 - i] = array.get(i);
         }
 
         return plus;
