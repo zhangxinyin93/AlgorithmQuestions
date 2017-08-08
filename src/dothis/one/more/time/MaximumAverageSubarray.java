@@ -1,5 +1,9 @@
 package dothis.one.more.time;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * Given an array with positive and negative numbers,
  * find the maximum average subarray which length
